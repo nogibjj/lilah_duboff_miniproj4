@@ -1,5 +1,11 @@
-pylint 
-click 
-black
+pylint
+black 
 pytest
-pytest-cov
+pandas 
+matplotlib 
+jupyter 
+ruff 
+boto3 
+nbval 
+tabulate 
+ydata-profiling 
