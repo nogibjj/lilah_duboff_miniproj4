@@ -2,10 +2,7 @@ pylint
 black 
 pytest
 pandas 
-matplotlib 
-jupyter 
+matplotlib  
 ruff 
 boto3 
-nbval 
 tabulate 
-ydata-profiling 

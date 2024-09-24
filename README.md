@@ -1,3 +1,12 @@
+[![Testing Python 3.8.x](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml)
+
+[![Testing Python 3.8.x](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml)
+
+[![Testing Python 3.10.x](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml)
+
+[![Testing Python 3.11.x](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml)
+
+
 # Github Actions Matrix 
 #### Project that builds a GitHub Actions matrix to test multiple versions of python for MiniProj 2 (Descriptive Stats with Pandas)
 ---
@@ -22,12 +31,12 @@
     - .github
         - workflows
             - matrix.yml
-    - outputs
-        - ADD OUTPUT HERE
     - python_files
+        - outputs
+            - output.png
         - test_files
-            - test_main.py
             - test_lib.py
+            - test_main.py
         - lib.py
         - main.py
     - Makefile
@@ -42,19 +51,27 @@
 - pandas
 - matplotlib
 - ruff
-- nbval
-- jupyter
+- boto3
 - tabulate
 
 ---
 ### Descriptive Statistics Table
 ---
 ###### The following table is the main.py output, indicating the count, mean, std, min, quartiles, and max for the numeric variables
-
+|       |       year |    fatal |
+|:------|-----------:|---------:|
+| count |  336       |  336     |
+| mean  | 1985       |  928.664 |
+| std   |    2.00298 |  934.051 |
+| min   | 1982       |   79     |
+| 25%   | 1983       |  293.75  |
+| 50%   | 1985       |  701     |
+| 75%   | 1987       | 1063.5   |
+| max   | 1988       | 5504     |
 
 ---
 ### Visualizations
 ---
-###### The following graph is a visualization created by the script, which displays:
+###### The following graph is a visualization created by the script, which displays a comparison of the number of driving fatalities per year reported in the dataset:
 
-
+![alt text](python_files/outputs/output.png)
