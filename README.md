@@ -1,4 +1,4 @@
-[![Testing Python 3.8.x](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix.yml)
+[![Advanced testing with Github Actions](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix_cicd_python.yml/badge.svg)](https://github.com/nogibjj/lilah_duboff_miniproj4/actions/workflows/matrix_cicd_python.yml)
 
 # Github Actions Matrix 
 #### Project that builds a GitHub Actions matrix to test multiple versions of python for MiniProj 2 (Descriptive Stats with Pandas)
